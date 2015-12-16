@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/ll_footer_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_line"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_footer_content"
+        android:layout_below="@+id/toolbar"
+
+        android:fitsSystemWindows="true">
+
+        <!-- Content -->
+
+
+        <RelativeLayout
+            android:id="@+id/rl_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </RelativeLayout>
+
+        <!-- Side Drawer -->
+
+        <LinearLayout
+            android:id="@+id/drawer_view"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/common_white"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lv_menus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/common_line"
+                android:dividerHeight="1px"
+                android:overScrollMode="never"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:scrollbars="none">
+
+            </ListView>
+
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+
+</RelativeLayout>

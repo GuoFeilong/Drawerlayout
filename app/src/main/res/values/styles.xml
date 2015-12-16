@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+
+
+    <!-- 修改style -->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+
+
+        <!--隐藏原来的ActionBar，为了在本project中使用ToolBar-->
+        <item name="windowActionBar">false</item>
+
+        <!--隐藏ActionBar的标题-->
+        <item name="android:windowNoTitle">true</item>
+
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!-- Actionbar color -->
+        <item name="colorPrimary">@color/user_center_blue</item>
+        <!-- Status bar color -->
+        <item name="colorPrimaryDark">@color/user_center_blue</item>
+        <item name="android:textColorPrimary">@color/user_center_purple_3</item>
+        <!-- Window color -->
+        <item name="android:windowBackground">@color/dim_foreground_material_dark</item>
+        <!-- 將新加入的風格 AppTheme.MyDrawerStyle 設定給 drawerArrowStyle 這個屬性 -->
+        <item name="drawerArrowStyle">@style/AppTheme.MyDrawerArrowStyle</item>
+    </style>
+
+    <!-- 加入一個新的 navigation drarwer 的風格 -->
+    <style name="AppTheme.MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle" >
+
+        <!-- 將 spinBars 屬性設定為 false -->
+        <item name="spinBars">true</item>
+        <!-- 設定 drawer arrow 的顏色 -->
+        <item name="color">@color/user_center_purple_3</item>
+    </style>
+
+
+    <!--定义主题使用parent引用我们自定义的AppTheme.Base主题-->
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+</resources>

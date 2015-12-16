@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="conmmd_black">#444444</color>
+    <color name="conmmd_background">#f5f5f7</color>
+    <color name="conmmd_line">#dcdcdc</color>
+    <color name="conmmd_white">#FFFFFFFF</color>
+    <color name="common_line">#e6e6e6</color>
+    <color name="common_textcolor">#444444</color>
+    <color name="conmmd_textcolor_s">#b2bdc1</color>
+    <color name="conmmd_textcolor_t">#dbdbdb</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_transparent">#00000000</color>
+    <color name="muilist_title_text_color">#88cda0</color>
+    <color name="muilist_text_line_color">#f5f5f5</color>
+    <color name="test_red">#ff0000</color>
+    <color name="test_black">#000000</color>
+    <color name="test_green">#00ff00</color>
+    <color name="thread_view_m_orange">#F49800</color>
+    <color name="thread_view_m_white">#ffffff</color>
+    <color name="thread_view_m_gray">#dcdcdc</color>
+    <color name="thread_view_m_green">#99c824</color>
+    <color name="conmmd_textcolor">#444444</color>
+    <color name="eboss_card_top">#00cccb</color>
+    <color name="common_lightgray">#f9f9fb</color>
+    <color name="user_center_purple">#a399de</color>
+    <color name="user_center_purple_3">#887ebc</color>
+    <color name="user_center_purple_2">#8b81be</color>
+    <color name="user_center_blue">#00cccb</color>
+    <color name="user_center_green">#86cea0</color>
+
+</resources>

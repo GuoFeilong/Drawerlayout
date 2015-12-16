@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIconStyle">
+        <attr name="circle_icon_solid_color" />
+        <attr name="circle_icon_stroke_color" />
+        <attr name="circle_icon" />
+        <attr name="circle_text_size" />
+        <attr name="circle_text_color" />
+    </declare-styleable>
+    <attr name="circle_icon_solid_color" format="color" />
+    <attr name="circle_icon_stroke_color" format="color" />
+    <attr name="circle_icon" format="reference" />
+    <attr name="circle_text_size" format="dimension" />
+    <attr name="circle_text_color" format="color" />
+</resources>
